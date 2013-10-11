@@ -25,7 +25,7 @@ class Commands(object):
 
 	NOTIFY_COMMANDS = {
 		"Linux": 'notify-send "{0}"',
-		"Darwin": "say screenshot copied",
+		"Darwin": "afplay /System/Library/Sounds/Glass.aiff",
 	}
 
 	def take(self):
