@@ -75,9 +75,17 @@ class ScreenShotUploader(object):
 
 		data = response.json()
 		if data.get("status") == 200:
+			
 			print(data.get("data").get("link"))
-			os.system("echo {0} | {1}".format(data.get("data").get("link"), self.commands.copy_to_clipboard()))
-			os.system(self.commands.send_notification().format("Upload completed. Image url pasted to clipboard."))
+
+			os.system("echo {0} | {1}".format(
+				data.get("data").get("link"),
+				self.commands.copy_to_clipboard())
+			)
+
+			os.system(self.commands.send_notification().format(
+				"Upload completed. Image url pasted to clipboard.")
+			)
 
 
 		else:
