@@ -55,7 +55,7 @@ class ScreenShotUploader(object):
 					os.mkdir(self.target_path)
 			os.chdir(self.target_path)
 
-		file_name =  self.get_file_name()
+		file_name = self.get_file_name()
 
 		os.system(self.commands.take().format(file_name))
 
@@ -64,9 +64,9 @@ class ScreenShotUploader(object):
 	def upload_to_imgur(self, file_name):
 
 		response = requests.post(
-		    "https://api.imgur.com/3/upload.json", 
-		    headers = {"Authorization": "Client-ID {0}".format(self.client_id)},
-		    data = {
+		    "https://api.imgur.com/3/upload.json",
+		    headers={"Authorization": "Client-ID {0}".format(self.client_id)},
+		    data={
 		        'image': base64.b64encode(open(os.path.join(self.target_path, file_name), 'rb').read()),
 		        'type': 'base64',
 		        'name': file_name,
@@ -75,7 +75,7 @@ class ScreenShotUploader(object):
 
 		data = response.json()
 		if data.get("status") == 200:
-			
+
 			print(data.get("data").get("link"))
 
 			os.system("echo {0} | {1}".format(
@@ -87,10 +87,11 @@ class ScreenShotUploader(object):
 				"Upload completed. Image url pasted to clipboard.")
 			)
 
-
 		else:
 			if 'error' in data.get("data"):
-				print(data.get("data").get("error"))
+				os.system(self.commands.send_notification().format(
+					print(data.get("data").get("error")))
+				)
 
 
 def main():
