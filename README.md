@@ -1,4 +1,4 @@
 imgui
 =====
 
-a cli app to take screenshots and upload to imgur.
+a linux/mac app to take screenshots and upload to imgur.
