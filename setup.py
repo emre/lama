@@ -11,6 +11,6 @@ setup(
     description='a tool to take screenshots and upload to imgur from command line.',
     install_requires=["requests", ],
     entry_points={
-        'console_scripts': ['imgur_client = imgur_client.upload:main',]
+        'console_scripts': ['imgui = imgui.upload:main',]
     }
 )
