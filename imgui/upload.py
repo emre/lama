@@ -52,7 +52,7 @@ class ScreenShotUploader(object):
 		if not self.target_path:
 			self.target_path = os.path.expanduser("~/imgur_uploads")
 			if not os.path.exists(self.target_path):
-					os.mkdir(self.target_path)
+				os.mkdir(self.target_path)
 			os.chdir(self.target_path)
 
 		file_name = self.get_file_name()
