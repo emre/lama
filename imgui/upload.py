@@ -15,17 +15,17 @@ class Commands(object):
 
 	SCREENSHOT_COMMANDS = {
 		"Linux": "scrot -s {0}",
-		"Darwin": "",
+		"Darwin": "screencapture -s {0}",
 	}
 
 	CLIPBOARD_COMMANDS = {
 		"Linux": "xsel --clipboard --input",
-		"Darwin": "",
+		"Darwin": "pbcopy",
 	}
 
 	NOTIFY_COMMANDS = {
 		"Linux": 'notify-send "{0}"',
-		"Darwin": "",
+		"Darwin": "say screenshot copied",
 	}
 
 	def take(self):
