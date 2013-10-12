@@ -11,6 +11,6 @@ setup(
     description='a tool to take screenshots and upload to imgur from command line.',
     install_requires=["requests", ],
     entry_points={
-        'console_scripts': ['lama = lama.upload:main',]
+        'console_scripts': ['lama = lama.upload:main', ]
     }
 )
