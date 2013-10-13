@@ -34,6 +34,14 @@ $ lama
 or `ALT+F2` and `lama`
 
 
+**ui clients**
+
+| platform | repo | download |
+| -------- | ---- | -------- |
+| linux    | n/a  | n/a      |
+| mac      | [f/lamahelper](https://github.com/f/LAMAHelper) | [download](https://github.com/f/LAMAHelper/raw/master/build/LAMAHelper.app.zip) |
+
+
 #### how it works
 
 All of your screenshots will be in your  `~/imgur_uploads` directory as a backup on the disk.
@@ -51,5 +59,5 @@ All of your screenshots will be in your  `~/imgur_uploads` directory as a backup
 **note:** <a href="http://en.wikipedia.org/wiki/Scrot">scrot</a> and <a href="http://www.vergenet.net/~conrad/software/xsel/">xsel</a> must be installed for linux users.
 
 **thanks**
-- <a href='http://github.com/f'>@fka</a> for mac integration.
+- <a href='http://github.com/f'>@f</a> for mac integration.
 - <a href="http://github.com/ras0ir">@ras0ir</a> for the archlinux package build.
