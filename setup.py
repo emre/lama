@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='lama',
-    version='0.4',
+    version='0.1',
     packages=['lama'],
     url='http://github.com/emre/lama',
     license='MIT',
