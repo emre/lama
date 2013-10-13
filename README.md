@@ -48,4 +48,4 @@ All of your screenshots will be in your  `~/imgur_uploads` directory as a backup
 | linux         | clipboard operations  | xsel                                       |
 | mac           | clipboard operations   | pbcopy     |
 
-**Note:** <a href="http://en.wikipedia.org/wiki/Scrot">scrot</a> and <a href="http://www.vergenet.net/~conrad/software/xsel/">xsel</a> must be installed for linux users. 
+**note:** <a href="http://en.wikipedia.org/wiki/Scrot">scrot</a> and <a href="http://www.vergenet.net/~conrad/software/xsel/">xsel</a> must be installed for linux users. 
