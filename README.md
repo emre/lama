@@ -52,3 +52,4 @@ All of your screenshots will be in your  `~/imgur_uploads` directory as a backup
 
 **thanks**
 - <a href='http://github.com/f'>@fka</a> for mac integration.
+- <a href="http://github.com/ras0ir">@ras0ir</a> for the archlinux package build.
