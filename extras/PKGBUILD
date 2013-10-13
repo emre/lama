@@ -7,7 +7,7 @@ arch=('any')
 url="https://github.com/emre/lama"
 license=('MIT')
 makedepends=('git')
-depends=('python2-requests')
+depends=('python2-requests' 'scrot' 'xsel')
 
 _gitroot=git://github.com/emre/lama.git
 _gitname=lama
