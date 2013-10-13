@@ -15,7 +15,7 @@ class Commands(object):
 
     SCREENSHOT_COMMANDS = {
         "Linux": "scrot -s {0}",
-        "Darwin": "screencapture -s {0}",
+        "Darwin": "screencapture -i {0}",
     }
 
     CLIPBOARD_COMMANDS = {
