@@ -13,7 +13,12 @@ $ (sudo) pip install lama
 #### usage
 
 get your client id from <a href='http://api.imgur.com/'>imgur api</a> and create a config file named `.imgur.conf` in your user's
-directory. (`~/.imgur.conf`)
+directory. (`~/.imgur.conf`) 
+
+there is an example preformaated config file in the repository:
+```bash
+$ wget https://raw.github.com/emre/lama/master/extras/.imgur.conf -O ~/.imgur.conf
+```
 
 ```ini
 [client]
