@@ -14,7 +14,7 @@ class Commands(object):
         self.platform = platform.system()
 
     SCREENSHOT_COMMANDS = {
-        "Linux": "scrot -s {0}",
+        "Linux": "scrot -sb {0}",
         "Darwin": "screencapture -i {0}",
     }
 
