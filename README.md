@@ -61,3 +61,7 @@ All of your screenshots will be in your  `~/imgur_uploads` directory as a backup
 **thanks**
 - <a href='http://github.com/f'>@f</a> for mac integration.
 - <a href="http://github.com/ras0ir">@ras0ir</a> for the archlinux package build.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/emre/lama/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
