@@ -39,7 +39,7 @@ or `ALT+F2` and `lama`
 | platform | repo | download |
 | -------- | ---- | -------- |
 | linux    | n/a  | n/a      |
-| mac      | [f/lamahelper](https://github.com/f/LAMAHelper) | [download](https://github.com/f/LAMAHelper/raw/master/build/LAMAHelper.app.zip) |
+| mac      | [f/lamahelper](https://github.com/f/LAMAHelper) | [download](https://github.com/f/lama.app/blob/master/build/Lama.app.zip) |
 
 
 #### how it works
